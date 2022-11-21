@@ -7,3 +7,7 @@
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/chainlink-solidity-contracts"]
+	path = lib/chainlink-solidity-contracts
+	url = https://github.com/smartcontractkit/chainlink-solidity.git
+	branch = opt3-chainlink-v0.8.0-v0.5.1
