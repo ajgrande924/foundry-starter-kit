@@ -10,7 +10,7 @@ clean  :; forge clean
 # Remove modules
 remove :; rm -rf .gitmodules && rm -rf .git/modules/* && rm -rf lib && touch .gitmodules && git add . && git commit -m "modules"
 
-install :; forge install smartcontractkit/chainlink-solidity@opt3-chainlink-v0.8.0-v0.5.0 && forge install rari-capital/solmate && forge install foundry-rs/forge-std
+install :; forge install smartcontractkit/chainlink-solidity@opt3-chainlink-v0.8.0-v0.5.1 && forge install rari-capital/solmate && forge install foundry-rs/forge-std
 
 # Update Dependencies
 update:; forge update

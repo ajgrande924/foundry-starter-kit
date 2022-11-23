@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 // import "@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol";
 // import "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
-import "@chainlink/src/interfaces/ChainlinkRequestInterface.sol";
-import "@chainlink/src/interfaces/LinkTokenInterface.sol";
+import "@chainlink/contracts/src/interfaces/ChainlinkRequestInterface.sol";
+import "@chainlink/contracts/src/interfaces/LinkTokenInterface.sol";
 
 /**
  * @title The LinkTokenReceiver contract - used for the MockOracle below

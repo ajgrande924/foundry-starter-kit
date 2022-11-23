@@ -2,7 +2,7 @@
 pragma solidity ^0.8.7;
 
 // import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
-import "@chainlink/src/ChainlinkClient.sol";
+import "@chainlink/contracts/src/ChainlinkClient.sol";
 
 /**
  * @title The APIConsumer contract
