@@ -1,9 +1,10 @@
-[submodule "lib/chainlink-brownie-contracts"]
-	path = lib/chainlink-brownie-contracts
-	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
 [submodule "lib/solmate"]
 	path = lib/solmate
 	url = https://github.com/rari-capital/solmate
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/chainlink-solidity"]
+	path = lib/chainlink-solidity
+	url = org-25111032@github.com:smartcontractkit/chainlink-solidity
+	branch = opt1-chainlink-v0.5.1
